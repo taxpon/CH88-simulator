@@ -31,8 +31,8 @@ before_script:
 after_failure:
   - cat /home/travis/build/mgechev/angular2-seed/npm-debug.log
 
-branches:
-  only: master
+#branches:
+#  only: master
 
 #notifications:
 #  email: true
@@ -52,4 +52,4 @@ cache:
   directories: node_modules
 
 script:
-  - npm run tests.all
+  - npm run test
