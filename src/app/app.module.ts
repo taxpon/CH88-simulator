@@ -17,6 +17,12 @@ import { AppState, InternalStateType } from './app.service';
 import { HomeComponent } from './home';
 import { NoContentComponent } from './no-content';
 
+import { ChairComponent } from './chair/chair.component';
+import { ChairControlComponent } from './chair/chair-control/chair-control.comoponent';
+import { ChairDispComponent } from './chair/chair-disp/chair-disp.component';
+
+import { ColorPickerModule } from 'angular2-color-picker';
+
 // Application wide providers
 const APP_PROVIDERS = [
   ...APP_RESOLVER_PROVIDERS,
@@ -37,10 +43,14 @@ type StoreType = {
   declarations: [
     AppComponent,
     HomeComponent,
-    NoContentComponent
+    NoContentComponent,
+      ChairComponent,
+      ChairControlComponent,
+      ChairDispComponent
   ],
   imports: [ // import Angular's modules
     BrowserModule,
+    ColorPickerModule,
     FormsModule,
     HttpModule,
     RouterModule.forRoot(ROUTES, { useHash: true })
