@@ -1,0 +1,14 @@
+<div>
+    <input [colorPicker]="colors[0]"
+           (colorPickerChange)="onColorChanged($event, 0)"
+           [style.background]="colors[0]"
+           [value]="colors[0]"/>
+    <input [colorPicker]="colors[1]"
+           (colorPickerChange)="onColorChanged($event, 1)"
+           [style.background]="colors[1]"
+           [value]="colors[1]"/>
+    <input [colorPicker]="colors[2]"
+           (colorPickerChange)="onColorChanged($event, 2)"
+           [style.background]="colors[2]"
+           [value]="colors[2]"/>
+</div>

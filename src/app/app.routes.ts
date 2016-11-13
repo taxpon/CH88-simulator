@@ -6,7 +6,8 @@ import { DataResolver } from './app.resolver';
 
 
 export const ROUTES: Routes = [
-  { path: '',      component: HomeComponent },
-  { path: 'home',  component: HomeComponent },
-  { path: '**',    component: NoContentComponent },
+    { path: '',      component: HomeComponent },
+    { path: 'chair', loadChildren: 'chair/chair.module/ChairModule' },
+    { path: 'home',  component: HomeComponent },
+    { path: '**',    component: NoContentComponent },
 ];
