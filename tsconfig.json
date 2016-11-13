@@ -9,22 +9,8 @@
     "sourceMap": true,
     "noEmitHelpers": true,
     "strictNullChecks": false,
-    "baseUrl": "./src",
-    "paths": {
-    },
-    "lib": [
-      "dom",
-      "es6"
-    ],
-    "types": [
-      "hammerjs",
-      "jasmine",
-      "node",
-      "protractor",
-      "selenium-webdriver",
-      "source-map",
-      "uglify-js",
-      "webpack"
+    "typeRoots": [
+      "node_modules/@types"
     ]
   },
   "exclude": [
