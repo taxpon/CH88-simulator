@@ -1,0 +1,48 @@
+{
+    "app_name": "CH88 Simulator",
+    "intro": "Customize simulator for CH88",
+    "version": "0.1.0",
+    "repo_url": "https://github.com/taxpon/CH88-simulator",
+    "sections": [
+        {
+            "title": "Bug Fixes",
+            "grep": "^fix"
+        },
+        {
+            "title": "Features",
+            "grep": "^feat"
+        },
+        {
+            "title": "Documentation",
+            "grep": "^docs"
+        },
+        {
+            "title": "Breaking changes",
+            "grep": "BREAKING"
+        },
+        {
+            "title": "Refactor",
+            "grep": "^refactor"
+        },
+        {
+            "title": "Style",
+            "grep": "^style"
+        },
+        {
+            "title": "Test",
+            "grep": "^test"
+        },
+        {
+            "title": "Chore",
+            "grep": "^chore"
+        },
+        {
+            "title": "Branchs merged",
+            "grep": "^Merge branch"
+        },
+        {
+            "title" : "Pull requests merged",
+            "grep": "^Merge pull request"
+        }
+    ]
+}
